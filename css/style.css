@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+header{
+background-image: url(../images/dawn.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-color: rgba(0, 0, 0, 0.368);
+background-blend-mode: multiply;
+padding: 25px 0;
+}
+.container{
+width: 1140px;
+margin: auto;
+}
+.main{
+    display: flex;
+}
+.logo{
+width:20% ;
+}
+.logo h2{
+font-size: 25px;
+font-weight: 800;
+color: white;
+}
+
+.logo h2 span{
+font-weight: 400;
+font-size: 16px;
+display: block;
+}
+
+nav{
+width:80% ;
+}
+
+nav ul{
+display: flex; 
+justify-content: end;   
+}
+
+nav ul li{
+list-style: none;    
+}
+
+nav ul li a{
+color: white; 
+text-decoration: none;
+padding: 20px;
+font-size: 18px;
+font-weight: 600;
+}
+
+/* ==Banner Section==*/
+.banner-content {
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner-content h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.banner-content span {
+    width: 90px;
+    height: 5px;
+    background: #FB2259;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.banner-content h1 {
+    font-size: 63px;
+    font-weight: 600;
+    margin: 35px;
+}
+
+
+.banner-content a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background-color: #FB2259;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+/* Upcoming Events */
+.event {
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.event h2 {}
+
+.event span {
+    width: 100px;
+    height: 5px;
+    background: #FB2259;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.tasks {}
+
+.col {
+    padding: 20px;
+    text-align: center;
+}
+
+.col img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 10px 10px 2px #8080807d;
+}
+
+.col h2 {
+    font-size: 30px;
+    color: #000000cc;
+    margin: 20px 0 0 0;
+}
+
+.col p {
+    font-size: 18px;
+    color: #373737;
+}
+
+.col a {
+    text-decoration: none;
+    color: #fb2259;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-top: 15px;
+    display: block;
+}
+
+/* Explore Section */
+.explore-section {
+    background-image: url(../images/father.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #1767d6b8;
+    background-blend-mode: multiply;
+    padding: 150px 0;
+    margin-top: 100px;
+    color: white;
+    background-attachment: fixed;
+}
+
+.explore-world {
+    display: flex;
+    justify-content: end;
+}
+
+.go {
+    width: 50%;
+}
+
+.go h2 {
+    font-size: 60px;
+}
+
+.go span {
+    width: 100px;
+    height: 5px;
+    background: #FB2259;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.go p {
+    font-size: 18px;
+    margin: 10px 0 25px 0;
+}
+
+.go a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/* Tour Section */
+.tour-section {
+    padding: 60px 0;
+}
+.tour-section span {
+    width: 100px;
+    height: 7px;
+    background: #FB2259;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.tour {
+    padding: 15px;
+    width: 33.33%;
+}
+.small {
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+.large {
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
