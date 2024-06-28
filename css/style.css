@@ -232,3 +232,36 @@ font-weight: 600;
     object-fit: cover;
     margin-bottom: 25px;
 }
+footer{
+    margin-top: 50px;
+    height:200px;
+    background-color: black;
+    padding: 50px 0;
+ }
+ .end-section{
+    color: white;
+    display: grid;
+    justify-content: center;
+ } 
+ .icon_section{
+    margin-left: 150px;
+ }
+  .icon_section .social .fa-facebook-f {
+    padding: 6px 10px; 
+    border: 1px solid #acacac ;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  .icon_section .social .fa-twitter {
+    padding: 6px ; 
+    border: 1px solid #acacac ;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 30px;
+  }
+  .icon_section .social .fa-google-plus-g {
+    padding: 6px;
+    border: 1px solid #acacac;
+    border-radius: 50%;
+    font-size: 20px;
+}
